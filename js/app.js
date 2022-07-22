@@ -19,57 +19,80 @@ function _onclick(para) {
     case "AC":
       if (num1 > 0) {
         document.getElementById("out").innerHTML = null;
-        num1 = Number(document.getElementById("out").innerHTML);
+        num1 = Number(
+          document.getElementById("out").innerHTML
+        );
       } else {
         num1 = 0;
       }
       break;
     case "0":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "1":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "2":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "3":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "4":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "5":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "6":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "7":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "8":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case "9":
       document.getElementById("out").innerHTML += para;
-      num1 = Number(document.getElementById("out").innerHTML);
+      num1 = Number(
+        document.getElementById("out").innerHTML
+      );
       break;
     case ".":
-      if (num1 > 0) {
+      if (num1 >= 0) {
         document.getElementById("out").innerHTML =
-          document.getElementById("out").innerHTML + para;
+          document.getElementById("out").innerHTML += para;
       } else {
-        document.getElementById("out").innerHTML = "0" + para;
+        document.getElementById("out").innerHTML =
+          "0" + para;
       }
       break;
     case "+":
